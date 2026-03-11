@@ -1,0 +1,9 @@
+services:
+  knowledgeops-mcp:
+    build: ./knowledgeops
+    container_name: knowledgeops-mcp
+    ports:
+      - "8000:8000"
+    volumes:
+      - ${NOTES_DIR:-$HOME/notes}:/notes
+    restart: unless-stopped

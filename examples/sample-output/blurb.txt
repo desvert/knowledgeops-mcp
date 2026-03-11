@@ -1,0 +1,1 @@
+Worked through a static malware triage exercise using file, strings, FLOSS, and VirusTotal against a PE32 sample. Identified two C2 endpoints, a persistence mechanism via a Run key, and confirmed the sample against a known commodity RAT family — without executing the binary. Write-up and IOC table generated from raw session notes using knowledgeops-mcp.
