@@ -5,7 +5,7 @@ Claude Code handles all AI reasoning. The server handles file I/O only — no AP
 
 The pattern: drop a folder of raw notes, logs, screenshots, and PDFs into `/home/ubu/notes/`, ask Claude Code to process it, and get back a structured markdown write-up with a self-quiz section and a short project blurb.
 
-Full background, design decisions, and lessons learned are in the [blog post](https://desvert.github.io).
+Full background, design decisions, and lessons learned are in the [blog post](https://desvert.github.io/2026/03/10/building-a-personal-knowledge-processor-with-mcp-and-claude-code.html).
 
 ---
 
